@@ -26,6 +26,7 @@ public class lacoCondicionalSwitchCase8 {
 			break;
 		case 2: 
 			System.out.println("Digite o valor a ser retirado");
+			System.out.printf("\nSaldo: R$ %.2f\n", dinheiro);
 			saque = read.nextFloat();
 			if(saque>dinheiro) {
 				System.out.println("Saldo insulficiente!");
@@ -38,7 +39,7 @@ public class lacoCondicionalSwitchCase8 {
 			System.out.println("Digite o valor a ser depositado: ");
 			deposito = read.nextFloat();
 			valor = deposito+dinheiro;
-			System.out.println("Digite o valor a ser depositado: ");
+			
 			System.out.printf("Seu saldo agora é %.2f", valor);
 			break;
 			default:
